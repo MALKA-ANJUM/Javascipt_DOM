@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    border: 1px solid yellowgreen;
+    background: yellowgreen;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px yellow;
+    cursor: pointer;
+    translate: transform 0.5s ease;
+}
+button:hover{
+   transform: scale(1.1);
+}
